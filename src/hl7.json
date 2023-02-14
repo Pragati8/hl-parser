@@ -1,0 +1,132 @@
+{
+    "MSH": {
+        "FieldSeparator": "",
+        "EncodingCharacters": "",
+        "SendingApplication": {
+            "NamespaceID": "",
+            "UniversalID": "",
+            "UniversalIDType": ""
+        },
+        "SendingFacility": {
+            "NamespaceID": "",
+            "UniversalID": "",
+            "UniversalIDType": ""
+        },
+        "ReceivingApplication": {
+            "NamespaceID": "",
+            "UniversalID": "",
+            "UniversalIDType": ""
+        },
+        "ReceivingFacility": {
+            "NamespaceID": "",
+            "UniversalID": "",
+            "UniversalIDType": ""
+        },
+        "Date/TimeofMessage": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "Security": "",
+        "MessageType": {
+            "MessageCode": "",
+            "TriggerEvent": "",
+            "MessageStructure": ""
+        },
+        "MessageControlId": "0",
+        "ProcessingId": {
+            "ProcessingId": "",
+            "ProcessingMode": ""
+        },
+        "VersionId": {
+            "VersionId": "",
+            "InternationalizationCode": "",
+            "nternationalVersionId": ""
+        },
+        "SequenceNumber": "",
+        "ContinuationPointer": "",
+        "AcceptAcknowledgementType": "",
+        "ApplicationAcknowledgementType": "",
+        "CountryCode": "",
+        "CharacterSet": "",
+        "PrincipalLanguageofMessage": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "AlternateCharacterSetHandlingScheme": "",
+        "MessageProfileIdentifier": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        }
+    },
+    "OBX": {
+        "Set ID": "",
+        "ValueType": "",
+        "ObservationIdentifier": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ObservationSub-Id":"",
+        "ObservationValue":"",
+        "Units": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ReferenceRange": "",
+        "AbnormalFlags": "",
+        "Probability": "",
+        "NatureofAbnormalTest": "",
+        "ObservResultStatus": "",
+        "DateLastObsNormalValues": "",
+        "User-DefinedAccessChecks": "",
+        "Date/TimeoftheObservation": "",
+        "Producer’sId": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Responsible Observer": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "Observation Method": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        }
+    }
+
+}
+
+
