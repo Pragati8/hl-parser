@@ -75,8 +75,8 @@
             "AlternateText": "",
             "NameOfAlternateCodingSystem": ""
         },
-        "ObservationSub-Id":"",
-        "ObservationValue":"",
+        "ObservationSub-Id": "",
+        "ObservationValue": "",
         "Units": {
             "Identifier": "",
             "Text": "",
@@ -140,7 +140,7 @@
             "Floor": "",
             "LocationDescription": "",
             "ComprehensiveLocationIdentifier": "",
-            "AssigningAuthorityForLocation":""
+            "AssigningAuthorityForLocation": ""
         },
         "AdmissionType": "",
         "PreadmitNumber": {
@@ -166,7 +166,7 @@
             "Floor": "",
             " LocationDescription": "",
             "ComprehensiveLocationIdentifier": "",
-            "AssigningAuthorityForLocation":""
+            "AssigningAuthorityForLocation": ""
         },
         "AttendingDoctor": {
             "IdNumber": "",
@@ -193,7 +193,7 @@
             "AssigningJurisdiction": "",
             "AssigningAgencyOrDepartment": ""
         },
-        "ReferringDoctor":  {
+        "ReferringDoctor": {
             "IdNumber": "",
             "FamilyName": "",
             "GivenName": "",
@@ -218,7 +218,7 @@
             "AssigningJurisdiction": "",
             "AssigningAgencyOrDepartment": ""
         },
-        "ConsultingDoctor":  {
+        "ConsultingDoctor": {
             "IdNumber": "",
             "FamilyName": "",
             "GivenName": "",
@@ -255,7 +255,7 @@
             "Floor": "",
             " LocationDescription": "",
             "ComprehensiveLocationIdentifier": "",
-            "AssigningAuthorityForLocation":""
+            "AssigningAuthorityForLocation": ""
         },
         "PreadmitTestIndicator": "",
         "Re-admissionIndicator": "",
@@ -296,7 +296,7 @@
             "IdentifierTypeCode": "",
             "AssigningFacility": ""
         },
-        "FinancialClass":{
+        "FinancialClass": {
             "FinancialClass": "",
             "EffectiveDate": ""
         },
@@ -1061,8 +1061,818 @@
             "AlternateText": "",
             "NameOfAlternateCodingSystem": ""
         }
-    }
-
-}
-
-
+    },
+    "PV2": {
+        "PriorPendingLocation": {
+            "PointofCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PersonLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "LocationDescription": "",
+            "ComprehensiveLocationIdentifier": "",
+            "AssigningAuthorityforLocation": ""
+        },
+        "AccommodationCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "AdmitReason": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "TransferReason": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "PatientValuables": "",
+        "PatientValuablesLocation": "",
+        "VisitUserCode": "",
+        "ExpectedAdmitDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "ExpectedDischargeDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "EstimatedLengthofInpatientStay": "",
+        "ActualLengthofInpatientStay": "",
+        "VisitDescription": "",
+        "ReferralSourceCode": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "SecondandFurtherGivenNamesorInitialsThereof": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CheckDigitScheme": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "NameContext": "",
+            "NameValidityRange": "",
+            "NameAssemblyOrder": "",
+            "EffectiveDate": "",
+            "ExpirationDate": "",
+            "ProfessionalSuffix": "",
+            "AssigningJurisdiction": "",
+            "AssigningAgencyorDepartment": ""
+        },
+        "PreviousServiceDate": "",
+        "EmploymentIllnessRelatedIndicator": "",
+        "PurgeStatusCode": "",
+        "PurgeStatusDate": "",
+        "SpecialProgramCode": "",
+        "RetentionIndicator": "",
+        "ExpectedNumberofInsurancePlans": "",
+        "VisitPublicityCode": "",
+        "VisitProtectionIndicator": "",
+        "ClinicOrganizationName": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "IdentifierCheckDigit": "",
+            "CheckDigitScheme": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "OrganizationIdentifier": ""
+        },
+        "PatientStatusCode": "",
+        "VisitPriorityCode": "",
+        "PreviousTreatmentDate": "",
+        "ExpectedDischargeDisposition": "",
+        "SignatureonFileDate": "",
+        "FirstSimilarIllnessDate": "",
+        "PatientChargeAdjustmentCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "RecurringServiceCode": "",
+        "BillingMediaCode": "",
+        "ExpectedSurgeryDateandTime": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "MilitaryPartnershipCode": "",
+        "MilitaryNon-AvailabilityCode": "",
+        "NewbornBabyIndicator": "",
+        "BabyDetainedIndicator": "",
+        "ModeofArrivalCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "RecreationalDrugUseCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "AdmissionLevelofCareCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "PrecautionCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "PatientConditionCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "LivingWillCode": "",
+        "OrganDonorCode": "",
+        "AdvanceDirectiveCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "PatientStatusEffectiveDate": "",
+        "ExpectedLOAReturnDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "ExpectedPre-admissionTestingDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "NotifyClergyCode": ""
+    },
+     "RXE": {
+        "Quantity/Timing": {
+            "Quantity": "",
+            "Interval": "",
+            "Duration": "",
+            "StartDate/Time": "",
+            "EndDate/Time": "",
+            "Priority": "",
+            "Condition": "",
+            "Text": "",
+            "Conjunction": "",
+            "OrderSequencing": "",
+            "OccurrenceDuration": "",
+            "TotalOccurrences": ""
+        },
+        "GiveCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "GiveAmount-Minimum": "",
+        "GiveAmount-Maximum": "",
+        "GiveUnits": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "GiveDosageForm": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ProvidersAdministrationInstructions": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Deliver-ToLocation": {
+            "PointOfCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PatientLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "Address": ""
+        },
+        "SubstitutionStatus": "",
+        "DispenseAmount": "",
+        "DispenseUnits": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "NumberOfRefills": "",
+        "OrderingProvidersDEANumber": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "SecondandFurtherGivenNamesorInitialsThereof": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CheckDigitScheme": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "NameContext": "",
+            "NameValidityRange": "",
+            "NameAssemblyOrder": "",
+            "EffectiveDate": "",
+            "ExpirationDate": "",
+            "ProfessionalSuffix": "",
+            "AssigningJurisdiction": "",
+            "AssigningAgencyorDepartment": ""
+        },
+        "Pharmacist/TreatmentSuppliersVerifierID": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "SecondandFurtherGivenNamesorInitialsThereof": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CheckDigitScheme": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "NameContext": "",
+            "NameValidityRange": "",
+            "NameAssemblyOrder": "",
+            "EffectiveDate": "",
+            "ExpirationDate": "",
+            "ProfessionalSuffix": "",
+            "AssigningJurisdiction": "",
+            "AssigningAgencyorDepartment": ""
+        },
+        "PrescriptionNumber": "",
+        "NumberofRefillsRemaining": "",
+        "NumberofRefills/DosesDispensed": "",
+        "D/TofMostRecentRefillorDoseDispensed": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "TotalDailyDose": {
+            "Quantity": "",
+            "Units": ""
+        },
+        "NeedsHumanReview": "",
+        "Pharmacy/TreatmentSuppliersSpecialDispensingInstructions": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "GivePer(TimeUnit)": "",
+        "GiveRateAmount": "",
+        "GiveRateUnits": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "GiveStrength": "",
+        "GiveStrengthUnits": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "GiveIndication": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "DispensePackageSize": "",
+        "DispensePackageSizeUnit": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "DispensePackageMethod": "",
+        "SupplementaryCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "OriginalOrderDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "GiveDrugStrengthVolume": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": "",
+            "CodingSystemVersionId": "",
+            "AlternateCodingSystemVersionId": "",
+            "OriginalText": ""
+        },
+        "GiveDrugStrengthVolumeUnits": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": "",
+            "CodingSystemVersionId": "",
+            "AlternateCodingSystemVersionId": "",
+            "OriginalText": ""
+        },
+        "ControlledSubstanceSchedule": "",
+        "FormularyStatus": "",
+        "PharmaceuticalSubstanceAlternative": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": "",
+            "CodingSystemVersionId": "",
+            "AlternateCodingSystemVersionId": "",
+            "OriginalText": ""
+        },
+        "PharmacyofMostRecentFill": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": "",
+            "CodingSystemVersionId": "",
+            "AlternateCodingSystemVersionId": "",
+            "OriginalText": ""
+        },
+        "InitialDispenseAmount": "",
+        "DispensingPharmacy": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": "",
+            "CodingSystemVersionId": "",
+            "AlternateCodingSystemVersionId": "",
+            "OriginalText": ""
+        },
+        "DispensingPharmacyAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateorProvince": "",
+            "ZiporPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/ParishCode": "",
+            "CensusTract": "",
+            "AddressRepresentationCode": "",
+            "AddressValidityRange": "",
+            "EffectiveDate": "",
+            "ExpirationDate": ""
+        },
+        "Deliver-toPatientLocation": {
+            "PointofCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PersonLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "LocationDescription": "",
+            "ComprehensiveLocationIdentifier": "",
+            "AssigningAuthorityforLocation": ""
+        },
+        "Deliver-toAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateorProvince": "",
+            "ZiporPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/ParishCode": "",
+            "CensusTract": "",
+            "AddressRepresentationCode": "",
+            "AddressValidityRange": "",
+            "EffectiveDate": "",
+            "ExpirationDate": ""
+        },
+        "PharmacyOrderType": ""
+    },
+    "ORC": {
+        "OrderControl": "",
+        "PlacerOrderNumber": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "FillerOrderNumber": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "PlacerOrderGroupNumber": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "OrderStatus": "",
+        "ResponseFlag": "",
+        "Quantity/Timing": {
+            "Quantity": "",
+            "Interval": "",
+            "Duration": "",
+            "StartDate/Time": "",
+            "EndDate/Time": "",
+            "Priority": "",
+            "Condition": "",
+            "Text": "",
+            "Conjunction": "",
+            "OrderSequencing": "",
+            "OccurrenceDuration": "",
+            "TotalOccurrences": ""
+        },
+        "ParentOrder": {
+            "PlacerAssignedIdentifier": "",
+            "FillerAssignedIdentifier": ""
+        },
+        "Date/TimeofTransaction": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "EnteredBy": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "SecondandFurtherGivenNamesorInitialsThereof": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CheckDigitScheme": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "NameContext": "",
+            "NameValidityRange": "",
+            "NameAssemblyOrder": "",
+            "EffectiveDate": "",
+            "ExpirationDate": "",
+            "ProfessionalSuffix": "",
+            "AssigningJurisdiction": "",
+            "AssigningAgencyorDepartment": ""
+        },
+        "VerifiedBy": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "SecondandFurtherGivenNamesorInitialsThereof": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CheckDigitScheme": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "NameContext": "",
+            "NameValidityRange": "",
+            "NameAssemblyOrder": "",
+            "EffectiveDate": "",
+            "ExpirationDate": "",
+            "ProfessionalSuffix": "",
+            "AssigningJurisdiction": "",
+            "AssigningAgencyorDepartment": ""
+        },
+        "OrderingProvider": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "SecondandFurtherGivenNamesorInitialsThereof": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CheckDigitScheme": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "NameContext": "",
+            "NameValidityRange": "",
+            "NameAssemblyOrder": "",
+            "EffectiveDate": "",
+            "ExpirationDate": "",
+            "ProfessionalSuffix": "",
+            "AssigningJurisdiction": "",
+            "AssigningAgencyorDepartment": ""
+        },
+        "EnterersLocation": {
+            "PointofCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PersonLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "LocationDescription": "",
+            "ComprehensiveLocationIdentifier": "",
+            "AssigningAuthorityforLocation": ""
+        },
+        "CallBackPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/,CityCode": "",
+            "LocalNumber": "",
+            "Extension": "",
+            "AnyText": "",
+            "ExtensionPrefix": "",
+            "SpeedDialCode": "",
+            "UnformattedTelephoneNumber": ""
+        },
+        "OrderEffectiveDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "OrderControlCodeReason": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "EnteringOrganization": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "EnteringDevice": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ActionBy": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "SecondandFurtherGivenNamesorInitialsThereof": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CheckDigitScheme": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "NameContext": "",
+            "NameValidityRange": "",
+            "NameAssemblyOrder": "",
+            "EffectiveDate": "",
+            "ExpirationDate": "",
+            "ProfessionalSuffix": "",
+            "AssigningJurisdiction": "",
+            "AssigningAgencyorDepartment": ""
+        },
+        "AdvancedBeneficiaryNoticeCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "OrderingFacilityName": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "IdentifierCheckDigit": "",
+            "CheckDigitScheme": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "OrganizationIdentifier": ""
+        },
+        "OrderingFacilityAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateorProvince": "",
+            "ZiporPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/ParishCode": "",
+            "CensusTract": "",
+            "AddressRepresentationCode": "",
+            "AddressValidityRange": "",
+            "EffectiveDate": "",
+            "ExpirationDate": ""
+        },
+        "OrderingFacilityPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/,CityCode": "",
+            "LocalNumber": "",
+            "Extension": "",
+            "AnyText": "",
+            "ExtensionPrefix": "",
+            "SpeedDialCode": "",
+            "UnformattedTelephoneNumber": ""
+        },
+        "OrderingProviderAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateorProvince": "",
+            "ZiporPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/ParishCode": "",
+            "CensusTract": "",
+            "AddressRepresentationCode": "",
+            "AddressValidityRange": "",
+            "EffectiveDate": "",
+            "ExpirationDate": ""
+        },
+        "OrderStatusModifier": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": "",
+            "CodingSystemVersionId": "",
+            "AlternateCodingSystemVersionId": "",
+            "OriginalText": ""
+        },
+        "AdvancedBeneficiaryNoticeOverrideReason": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": "",
+            "CodingSystemVersionId": "",
+            "AlternateCodingSystemVersionId": "",
+            "OriginalText": ""
+        },
+        "FillersExpectedAvailabilityDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "ConfidentialityCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": "",
+            "CodingSystemVersionId": "",
+            "AlternateCodingSystemVersionId": "",
+            "OriginalText": ""
+        },
+        "OrderType": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": "",
+            "CodingSystemVersionId": "",
+            "AlternateCodingSystemVersionId": "",
+            "OriginalText": ""
+        },
+        "EntererAuthorizationMode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": "",
+            "CodingSystemVersionId": "",
+            "AlternateCodingSystemVersionId": "",
+            "OriginalText": ""
+        },
+        "ParentUniversalServiceIdentifier": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": "",
+            "CodingSystemVersionId": "",
+            "AlternateCodingSystemVersionId": "",
+            "OriginalText": ""
+        }
+    }}
