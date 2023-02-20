@@ -1875,4 +1875,553 @@
             "AlternateCodingSystemVersionId": "",
             "OriginalText": ""
         }
-    }}
+    },
+    "VTQ": {
+        "Querytag": "",
+        "Query/ResponseFormatCode": "",
+        "VTQueryName": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "VirtualTableName": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "SelectionCriteria": {
+            "NameOfField": "",
+            "RelationalOperator": "",
+            "Value": "",
+            "RelationalConjunction": ""
+        }
+    },
+    "VAR": {
+        "VarianceInstanceID": {
+            "Entity Identifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "DocumentedDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "StatedVarianceDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "VarianceOriginator": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "NameContext": "",
+            "NameValidityRange": "",
+            "NameAssemblyOrder": "",
+            "EffectiveDate": "",
+            "ExpirationDate": "",
+            "ProfessionalSuffix": "",
+            "AssigningJurisdiction": "",
+            "AssigningAgencyOrDepartment": ""
+        },
+        "VarianceClassification": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "VarianceDescription": ""
+    },
+    "URS": {
+        "R/UWhereSubjectDefinition": "",
+        "R/UWhenDataStartDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "R/UWhenDataEndDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "R/UWhatUserQualifier": "",
+        "R/UOtherResultsSubjectDefinition": "",
+        "R/UWhichDate/TimeQualifier": "",
+        "R/UWhichDate/TimeStatusQualifier": "",
+        "R/UDate/TimeSelectionQualifier": "",
+        "R/UQuantity/TimingQualifier": {
+            "Quantity": "",
+            "Timing": "",
+            "Duration": "",
+            "StartDate/time": "",
+            "EndDate/time": "",
+            "Priority": "",
+            "Condition": "",
+            "Text": "",
+            "Conjunction": "",
+            "OrderSequencing": "",
+            "OccurrenceDuration": "",
+            "TotalOccurrences": ""
+        }
+    },
+    "URD": {
+        "R/UDate/Time": {
+            "Time": "",
+            "DegreeOfPrecision": ""
+        },
+        "ReportPriority": "",
+        "R/UWhoSubjectDefinition": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "NameContext": "",
+            "NameValidityRange": "",
+            "NameAssemblyOrder": "",
+            "EffectiveDate": "",
+            "ExpirationDate": "",
+            "ProfessionalSuffix": "",
+            "AssigningJurisdiction": "",
+            "AssigningAgencyOrDepartment": ""
+        },
+        "R/UWhatSubjectDefinition": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "R/UWhatDepartmentCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "R/UDisplay/PrintLocations": "",
+        "R/UResultsLevel": ""
+    },
+    "UB2": {
+        "SetID-UB2": "",
+        "Co-InsuranceDays(9)": "",
+        "ConditionCode(24-30)": "",
+        "CoveredDays(7)": "",
+        "Non-CoveredDays(8)": "",
+        "ValueAmount&Code(39-41)": {
+            "ValueCode": "",
+            "ValueAmount": ""
+        },
+        "OccurrenceCode&Date(32-35)": {
+            "OccurrenceCode": "",
+            "OccurrenceDate": ""
+        },
+        "OccurrenceSpanCode/Dates(36)": {
+            "OccurrenceSpanCode": "",
+            "OccurrenceSpanStartDate": "",
+            "OccurrenceSpanStopDate": ""
+        },
+        "UB92Locator2(state)": "",
+        "UB92Locator11(state)": "",
+        "UB92Locator31(national)": "",
+        "DocumentControlNumber": "",
+        "UB92Locator49(National)": "",
+        "UB92Locator56(State)": "",
+        "UB92Locator57(National)": "",
+        "UB92Locator78(State)": "",
+        "SpecialVisitCount": ""
+    },
+    "UB1": {
+        "SetID-UB1": "",
+        "BloodDeductible": "",
+        "BloodFurnished-Pints": "",
+        "BloodReplaced-Pints": "",
+        "BloodNotReplaced-Pints": "",
+        "Co-InsuranceDays": "",
+        "ConditionCode": "",
+        "CoveredDays": "",
+        "NonCoveredDays": "",
+        "ValueAmount&Code": {
+            "ValueCode": "",
+            "ValueAmount": ""
+        },
+        "NumberOfGraceDays": "",
+        "SpecialProgramIndicator": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "PSRO/URApprovalIndicator": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "PSRO/URApprovedStay-Fm": "",
+        "PSRO/URApprovedStay-To": "",
+        "Occurrence": {
+            "OccurrenceCode": "",
+            "OccurrenceDate": ""
+        },
+        "OccurrenceSpan": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "OccurSpanStartDate": "",
+        "OccurSpanEndDate": "",
+        "UB-82Locator2": "",
+        "UB-82Locator9": "",
+        "UB-82Locator27": "",
+        "UB-82Locator45": ""
+    },
+    "ABS": {
+        "DischargeCareProvider": {
+          "IdNumber": "",
+          "FamilyName": "",
+          "GivenName": "",
+          "SecondandFurtherGivenNamesorInitialsThereof": "",
+          "Suffix": "",
+          "Prefix": "",
+          "Degree": "",
+          "SourceTable": "",
+          "AssigningAuthority": "",
+          "NameTypeCode": "",
+          "IdentifierCheckDigit": "",
+          "CheckDigitScheme": "",
+          "IdentifierTypeCode": "",
+          "AssigningFacility": "",
+          "NameRepresentationCode": "",
+          "NameContext": "",
+          "NameValidityRange": "",
+          "NameAssemblyOrder": "",
+          "EffectiveDate": "",
+          "ExpirationDate": "",
+          "ProfessionalSuffix": "",
+          "AssigningJurisdiction": "",
+          "AssigningAgencyorDepartment": ""
+        },
+        "TransferMedicalServiceCode": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "SeverityofIllnessCode": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "Date/TimeofAttestation": {
+          "Time": "",
+          "DegreeOfPrecision": ""
+        },
+        "AttestedBy": {
+          "IdNumber": "",
+          "FamilyName": "",
+          "GivenName": "",
+          "SecondandFurtherGivenNamesorInitialsThereof": "",
+          "Suffix": "",
+          "Prefix": "",
+          "Degree": "",
+          "SourceTable": "",
+          "AssigningAuthority": "",
+          "NameTypeCode": "",
+          "IdentifierCheckDigit": "",
+          "CheckDigitScheme": "",
+          "IdentifierTypeCode": "",
+          "AssigningFacility": "",
+          "NameRepresentationCode": "",
+          "NameContext": "",
+          "NameValidityRange": "",
+          "NameAssemblyOrder": "",
+          "EffectiveDate": "",
+          "ExpirationDate": "",
+          "ProfessionalSuffix": "",
+          "AssigningJurisdiction": "",
+          "AssigningAgencyorDepartment": ""
+        },
+        "TriageCode": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "AbstractCompletionDate/Time": {
+          "Time": "",
+          "DegreeOfPrecision": ""
+        },
+        "AbstractedBy": {
+          "IdNumber": "",
+          "FamilyName": "",
+          "GivenName": "",
+          "SecondandFurtherGivenNamesorInitialsThereof": "",
+          "Suffix": "",
+          "Prefix": "",
+          "Degree": "",
+          "SourceTable": "",
+          "AssigningAuthority": "",
+          "NameTypeCode": "",
+          "IdentifierCheckDigit": "",
+          "CheckDigitScheme": "",
+          "IdentifierTypeCode": "",
+          "AssigningFacility": "",
+          "NameRepresentationCode": "",
+          "NameContext": "",
+          "NameValidityRange": "",
+          "NameAssemblyOrder": "",
+          "EffectiveDate": "",
+          "ExpirationDate": "",
+          "ProfessionalSuffix": "",
+          "AssigningJurisdiction": "",
+          "AssigningAgencyorDepartment": ""
+        },
+        "CaseCategoryCode": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "CaesarianSectionIndicator": "",
+        "GestationCategoryCode": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "GestationPeriod-Weeks": "",
+        "NewbornCode": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "StillbornIndicator": ""
+      },
+    "ACC": {
+    "AccidentDate/Time":{
+        "Time": "",
+        "DegreeOfPrecision": ""
+        },
+    "AccidentCode": {
+        "Identifier": "",
+        "Text": "",
+        "NameOfCodingSystem": "",
+        "AlternateIdentifier": "",
+        "AlternateText": "",
+        "NameOfAlternateCodingSystem": ""
+        },
+    "AccidentLocation": "",
+    "AutoAccidentState": {
+        "Identifier": "",
+        "Text": "",
+        "NameOfCodingSystem": "",
+        "AlternateIdentifier": "",
+        "AlternateText": "",
+        "NameOfAlternateCodingSystem": ""
+        },
+    "AccidentJobRelatedIndicator": "",
+    "AccidentDeathIndicator": "",
+    "EnteredBy": {
+        "IdNumber": "",
+        "FamilyName": "",
+        "GivenName": "",
+        "SecondandFurtherGivenNamesorInitialsThereof": "",
+        "Suffix": "",
+        "Prefix": "",
+        "Degree": "",
+        "SourceTable": "",
+        "AssigningAuthority": "",
+        "NameTypeCode": "",
+        "IdentifierCheckDigit": "",
+        "CheckDigitScheme": "",
+        "IdentifierTypeCode": "",
+        "AssigningFacility": "",
+        "NameRepresentationCode": "",
+        "NameContext": "",
+        "NameValidityRange": "",
+        "NameAssemblyOrder": "",
+        "EffectiveDate": "",
+        "ExpirationDate": "",
+        "ProfessionalSuffix": "",
+        "AssigningJurisdiction": "",
+        "AssigningAgencyorDepartment": ""
+        },
+    "BroughtInBy": "",
+    "PoliceNotifiedIndicator": "",
+    "AccidentAddress":{
+        "StreetAddress": "",
+        "OtherDesignation": "",
+        "City": "",
+        "StateorProvince": "",
+        "ZiporPostalCode": "",
+        "Country": "",
+        "AddressType": "",
+        "OtherGeographicDesignation": "",
+        "County/ParishCode": "",
+        "CensusTract": "",
+        "AddressRepresentationCode": "",
+        "AddressValidityRange": "",
+        "EffectiveDate": "",
+        "ExpirationDate": ""
+        }
+    },
+    "ADD":{
+    "AddendumContinuationPointer":""
+    },
+    "AFF":{
+"SetID-AFF":"",
+"ProfessionalOrganization":{
+    "OrganizationName": "",
+    "OrganizationNameTypeCode": "",
+    "IDNumber": "",
+    "CheckDigit": "",
+    "CheckDigitScheme": "",
+    "AssigningAuthority": "",
+    "IdentifierTypeCode": "",
+    "AssigningFacility": "",
+    "NameRepresentationCode": "",
+    "OrganizationIdentifier": ""
+    },
+"ProfessionalOrganizationAddress":{
+    "StreetAddress": "",
+    "OtherDesignation": "",
+    "City": "",
+    "StateorProvince": "",
+    "ZiporPostalCode": "",
+    "Country": "",
+    "AddressType": "",
+    "OtherGeographicDesignation": "",
+    "County/ParishCode": "",
+    "CensusTract": "",
+    "AddressRepresentationCode": "",
+    "AddressValidityRange": "",
+    "EffectiveDate": "",
+    "ExpirationDate": ""
+    },
+"ProfessionalOrganizationAffiliationDateRange":{
+    "RangeStartDate/Time":"",
+    "RangeEndDate/Time":""
+},
+"ProfessionalAffiliationAdditionalInformation":""
+    },
+    "AIG":{
+    "SetID-AIG":"",
+    "SegmentActionCode":"",
+    "ResourceID":{
+    "Identifier": "",
+    "Text": "",
+    "NameOfCodingSystem": "",
+    "AlternateIdentifier": "",
+    "AlternateText": "",
+    "NameOfAlternateCodingSystem": ""
+    },
+    "ResourceType":{
+    "Identifier": "",
+    "Text": "",
+    "NameOfCodingSystem": "",
+    "AlternateIdentifier": "",
+    "AlternateText": "",
+    "NameOfAlternateCodingSystem": ""
+    },
+    "ResourceGroup":{
+    "Identifier": "",
+    "Text": "",
+    "NameOfCodingSystem": "",
+    "AlternateIdentifier": "",
+    "AlternateText": "",
+    "NameOfAlternateCodingSystem": ""
+    },
+    "ResourceQuantity":"",
+    "ResourceQuantityUnits":{
+    "Identifier": "",
+    "Text": "",
+    "NameOfCodingSystem": "",
+    "AlternateIdentifier": "",
+    "AlternateText": "",
+    "NameOfAlternateCodingSystem": ""
+    },
+    "StartDate/Time":{
+    "Time": "",
+    "DegreeOfPrecision": ""
+    },
+    "StartDate/TimeOffset":"",
+    "StartDate/TimeOffsetUnits":{
+    "Identifier": "",
+    "Text": "",
+    "NameOfCodingSystem": "",
+    "AlternateIdentifier": "",
+    "AlternateText": "",
+    "NameOfAlternateCodingSystem": ""
+    },
+    "Duration":"",
+    "DurationUnits":{
+    "Identifier": "",
+    "Text": "",
+    "NameOfCodingSystem": "",
+    "AlternateIdentifier": "",
+    "AlternateText": "",
+    "NameOfAlternateCodingSystem": ""
+    },
+    "AllowSubstitutionCode":"",
+    "FillerStatusCode":{
+    "Identifier": "",
+    "Text": "",
+    "NameOfCodingSystem": "",
+    "AlternateIdentifier": "",
+    "AlternateText": "",
+    "NameOfAlternateCodingSystem": ""
+    }
+    }
+}
