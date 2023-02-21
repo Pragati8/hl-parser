@@ -2321,107 +2321,1155 @@
     "AddendumContinuationPointer":""
     },
     "AFF":{
-"SetID-AFF":"",
-"ProfessionalOrganization":{
-    "OrganizationName": "",
-    "OrganizationNameTypeCode": "",
-    "IDNumber": "",
-    "CheckDigit": "",
-    "CheckDigitScheme": "",
-    "AssigningAuthority": "",
-    "IdentifierTypeCode": "",
-    "AssigningFacility": "",
-    "NameRepresentationCode": "",
-    "OrganizationIdentifier": ""
-    },
-"ProfessionalOrganizationAddress":{
-    "StreetAddress": "",
-    "OtherDesignation": "",
-    "City": "",
-    "StateorProvince": "",
-    "ZiporPostalCode": "",
-    "Country": "",
-    "AddressType": "",
-    "OtherGeographicDesignation": "",
-    "County/ParishCode": "",
-    "CensusTract": "",
-    "AddressRepresentationCode": "",
-    "AddressValidityRange": "",
-    "EffectiveDate": "",
-    "ExpirationDate": ""
-    },
-"ProfessionalOrganizationAffiliationDateRange":{
-    "RangeStartDate/Time":"",
-    "RangeEndDate/Time":""
-},
-"ProfessionalAffiliationAdditionalInformation":""
+        "SetID-AFF":"",
+        "ProfessionalOrganization":{
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CheckDigitScheme": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "NameRepresentationCode": "",
+            "OrganizationIdentifier": ""
+            },
+        "ProfessionalOrganizationAddress":{
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateorProvince": "",
+            "ZiporPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/ParishCode": "",
+            "CensusTract": "",
+            "AddressRepresentationCode": "",
+            "AddressValidityRange": "",
+            "EffectiveDate": "",
+            "ExpirationDate": ""
+            },
+        "ProfessionalOrganizationAffiliationDateRange":{
+            "RangeStartDate/Time":"",
+            "RangeEndDate/Time":""
+        },
+        "ProfessionalAffiliationAdditionalInformation":""
     },
     "AIG":{
-    "SetID-AIG":"",
-    "SegmentActionCode":"",
-    "ResourceID":{
-    "Identifier": "",
-    "Text": "",
-    "NameOfCodingSystem": "",
-    "AlternateIdentifier": "",
-    "AlternateText": "",
-    "NameOfAlternateCodingSystem": ""
+        "SetID-AIG":"",
+        "SegmentActionCode":"",
+        "ResourceID":{
+        "Identifier": "",
+        "Text": "",
+        "NameOfCodingSystem": "",
+        "AlternateIdentifier": "",
+        "AlternateText": "",
+        "NameOfAlternateCodingSystem": ""
+        },
+        "ResourceType":{
+        "Identifier": "",
+        "Text": "",
+        "NameOfCodingSystem": "",
+        "AlternateIdentifier": "",
+        "AlternateText": "",
+        "NameOfAlternateCodingSystem": ""
+        },
+        "ResourceGroup":{
+        "Identifier": "",
+        "Text": "",
+        "NameOfCodingSystem": "",
+        "AlternateIdentifier": "",
+        "AlternateText": "",
+        "NameOfAlternateCodingSystem": ""
+        },
+        "ResourceQuantity":"",
+        "ResourceQuantityUnits":{
+        "Identifier": "",
+        "Text": "",
+        "NameOfCodingSystem": "",
+        "AlternateIdentifier": "",
+        "AlternateText": "",
+        "NameOfAlternateCodingSystem": ""
+        },
+        "StartDate/Time":{
+        "Time": "",
+        "DegreeOfPrecision": ""
+        },
+        "StartDate/TimeOffset":"",
+        "StartDate/TimeOffsetUnits":{
+        "Identifier": "",
+        "Text": "",
+        "NameOfCodingSystem": "",
+        "AlternateIdentifier": "",
+        "AlternateText": "",
+        "NameOfAlternateCodingSystem": ""
+        },
+        "Duration":"",
+        "DurationUnits":{
+        "Identifier": "",
+        "Text": "",
+        "NameOfCodingSystem": "",
+        "AlternateIdentifier": "",
+        "AlternateText": "",
+        "NameOfAlternateCodingSystem": ""
+        },
+        "AllowSubstitutionCode":"",
+        "FillerStatusCode":{
+        "Identifier": "",
+        "Text": "",
+        "NameOfCodingSystem": "",
+        "AlternateIdentifier": "",
+        "AlternateText": "",
+        "NameOfAlternateCodingSystem": ""
+        }
     },
-    "ResourceType":{
-    "Identifier": "",
-    "Text": "",
-    "NameOfCodingSystem": "",
-    "AlternateIdentifier": "",
-    "AlternateText": "",
-    "NameOfAlternateCodingSystem": ""
+    "TXA": {
+        "SetID-TXA": "",
+        "DocumentType": "",
+        "DocumentContentPresentation": "",
+        "ActivityDate/Time": "",
+        "PrimaryActivityProviderCode/Name": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "OriginationDate/Time": "",
+        "TranscriptionDate/Time": "",
+        "EditDate/Time": "",
+        "OriginatorCode/Name": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "AssignedDocumentAuthenticator": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "TranscriptionistCode/Name": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "UniqueDocumentNumber": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "ParentDocumentNumber": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "PlacerOrderNumber": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "FillerOrderNumber": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "UniqueDocumentFileName": "",
+        "DocumentCompletionStatus": "",
+        "DocumentConfidentialityStatus": "",
+        "DocumentAvailabilityStatus": "",
+        "DocumentStorageStatus": "",
+        "DocumentChangeReason": "",
+        "AuthenticationPerson,TimeStamp": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": "",
+            "Date/TimeActionPerformed": ""
+        },
+        "DistributedCopies": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        }
     },
-    "ResourceGroup":{
-    "Identifier": "",
-    "Text": "",
-    "NameOfCodingSystem": "",
-    "AlternateIdentifier": "",
-    "AlternateText": "",
-    "NameOfAlternateCodingSystem": ""
+    "STF": {
+        "STF-PrimaryKeyValue": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "StaffIDCode": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "StaffName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "StaffType": "",
+        "Sex": "",
+        "DateofBirth": "",
+        "Active/InactiveFlag": "",
+        "Department": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Service": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Phone": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/cityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "Office/HomeAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateOrProvince": "",
+            "ZipOrPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/parishCode": "",
+            "CensusTract": ""
+        },
+        "ActivationDate": {
+            "Date": "",
+            "Institution Name": ""
+        },
+        "InactivationDate": {
+            "Date": "",
+            "Institution Name": ""
+        },
+        "BackupPersonID": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "EmailAddress": "",
+        "PreferredMethodofContact": "",
+        "MaritalStatus": "",
+        "JobTitle": "",
+        "JobCode/Class": {
+            "JobCode": "",
+            "JobClass": ""
+        },
+        "EmploymentStatus": "",
+        "AdditionalInsuredonAuto": "",
+        "DriversLicenseNumber": {
+            "DriversLicenseNumber": "",
+            "IssuingState,Province,Country": "",
+            "ExpirationDate": ""
+        },
+        "CopyAutoIns": "",
+        "AutoIns.Expires": "",
+        "DateLastDMVReview": "",
+        "DateNextDMVReview": ""
     },
-    "ResourceQuantity":"",
-    "ResourceQuantityUnits":{
-    "Identifier": "",
-    "Text": "",
-    "NameOfCodingSystem": "",
-    "AlternateIdentifier": "",
-    "AlternateText": "",
-    "NameOfAlternateCodingSystem": ""
+    "SPR": {
+        "Querytag": "",
+        "Query/ResponseFormatCode": "",
+        "Storedprocedurename": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        " Inputparameterlist": {
+            "FieldName": "",
+            "Value1&value2&value3": ""
+        }
     },
-    "StartDate/Time":{
-    "Time": "",
-    "DegreeOfPrecision": ""
+    "SCH": {
+        "PlacerAppointmentID": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "FillerAppointmentID": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "OccurrenceNumber": "",
+        "PlacerGroupNumber": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "ScheduleID": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "EventReason": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "AppointmentReason": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "AppointmentType": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "AppointmentDuration": "",
+        "AppointmentDurationUnits": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "AppointmentTimingQuantity": {
+            "Quantity": "",
+            "Timing": "",
+            "Duration": "",
+            "StartDate/time": "",
+            "EndDate/time": "",
+            "Priority": "",
+            "Condition": "",
+            "Text": "",
+            "Conjunction": "",
+            "OrderSequencing": ""
+        },
+        "PlacerContactPerson": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "PlacerContactPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/cityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "PlacerContactAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateOrProvince": "",
+            "ZipOrPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/parishCode": "",
+            "CensusTract": ""
+        },
+        "PlacerContactLocation": {
+            "PointOfCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PersonLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "LocationType": ""
+        },
+        "FillerContactPerson": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "FillerContactPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/cityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "FillerContactAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateOrProvince": "",
+            "ZipOrPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/parishCode": "",
+            "CensusTract": ""
+        },
+        "FillerContactLocation": {
+            "PointOfCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PersonLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "LocationType": ""
+        },
+        "EnteredByPerson": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "EnteredByPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/cityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "EnteredByLocation": {
+            "PointOfCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PersonLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "LocationType": ""
+        },
+        "ParentPlacerAppointmentID": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "ParentFillerAppointmentID": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "FillerStatusCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        }
     },
-    "StartDate/TimeOffset":"",
-    "StartDate/TimeOffsetUnits":{
-    "Identifier": "",
-    "Text": "",
-    "NameOfCodingSystem": "",
-    "AlternateIdentifier": "",
-    "AlternateText": "",
-    "NameOfAlternateCodingSystem": ""
-    },
-    "Duration":"",
-    "DurationUnits":{
-    "Identifier": "",
-    "Text": "",
-    "NameOfCodingSystem": "",
-    "AlternateIdentifier": "",
-    "AlternateText": "",
-    "NameOfAlternateCodingSystem": ""
-    },
-    "AllowSubstitutionCode":"",
-    "FillerStatusCode":{
-    "Identifier": "",
-    "Text": "",
-    "NameOfCodingSystem": "",
-    "AlternateIdentifier": "",
-    "AlternateText": "",
-    "NameOfAlternateCodingSystem": ""
-    }
-    }
+    "AIL": {
+        "SetID-AIL": "",
+        "SegmentActionCode": "",
+        "LocationResourceID": {
+          "PointofCare": "",
+          "Room": "",
+          "Bed": "",
+          "Facility": "",
+          "LocationStatus": "",
+          "PersonLocationType": "",
+          "Building": "",
+          "Floor": "",
+          "LocationDescription": "",
+          "ComprehensiveLocationIdentifier": "",
+          "AssigningAuthorityforLocation": ""
+        },
+        "LocationType,AIL": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "LocationGroup": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "StartDate/Time": {
+          "Time": "",
+          "DegreeOfPrecision": ""
+        },
+        "StartDate/TimeOffset": "",
+        "StartDate/TimeOffsetUnits": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "Duration": "",
+        "DurationUnits": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "AllowSubstitutionCode": "",
+        "FillerStatusCode": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        }
+      },
+      "AIP": {
+        "SetID-AIP": "",
+        "SegmentActionCode": "",
+        "PersonnelResourceID": {
+          "IdNumber": "",
+          "FamilyName": "",
+          "GivenName": "",
+          "SecondandFurtherGivenNamesorInitialsThereof": "",
+          "Suffix": "",
+          "Prefix": "",
+          "Degree": "",
+          "SourceTable": "",
+          "AssigningAuthority": "",
+          "NameTypeCode": "",
+          "IdentifierCheckDigit": "",
+          "CheckDigitScheme": "",
+          "IdentifierTypeCode": "",
+          "AssigningFacility": "",
+          "NameRepresentationCode": "",
+          "NameContext": "",
+          "NameValidityRange": "",
+          "NameAssemblyOrder": "",
+          "EffectiveDate": "",
+          "ExpirationDate": "",
+          "ProfessionalSuffix": "",
+          "AssigningJurisdiction": "",
+          "AssigningAgencyorDepartment": ""
+        },
+        "ResourceType": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "ResourceGroup": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "StartDate/Time": {
+          "Time": "",
+          "DegreeOfPrecision": ""
+        },
+        "StartDate/TimeOffset": "",
+        "StartDate/TimeOffsetUnits": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "Duration": "",
+        "DurationUnits": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "AllowSubstitutionCode": "",
+        "FillerStatusCode": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        }
+      },
+      "AIS": {
+        "SetIDAIS": "",
+        "SegmentActionCode": "",
+        "UniversalServiceIdentifier": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "StartDateTime": {
+          "Time": "",
+          "DegreeOfPrecision": ""
+        },
+        "StartDateTimeOffset": "",
+        "StartDateTimeOffsetUnits": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        " Duration": "",
+        "DurationUnits": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "AllowSubstitutionCode": "",
+        "FillerStatusCode": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "PlacerSupplementalServiceInformation": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "FillerSupplementalServiceInformation": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        }
+      },
+      "APR": {
+        "TimeSelectionCriteria": {
+          "ParameterClass": "",
+          "ParameterValue": ""
+        },
+        "ResourceSelectionCriteria": {
+          "ParameterClass": "",
+          "ParameterValue": ""
+        },
+        "LocationSelectionCriteria": {
+          "ParameterClass": "",
+          "ParameterValue": ""
+        },
+        "SlotSpacingCriteria": "",
+        "FillerOverrideCriteria": {
+          "ParameterClass": "",
+          "ParameterValue": ""
+        }
+      },
+      "ARQ": {
+        "PlacerAppointmentID": {
+          "EntityIdentifier": "",
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        },
+        "FillerAppointmentID": {
+          "EntityIdentifier": "",
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        },
+        "OccurrenceNumber": "",
+        "PlacerOrderGroupNumber": {
+          "EntityIdentifier": "",
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        },
+        "ScheduleID": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "RequestEventReason": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "AppointmentReason": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "AppointmentType": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "AppointmentDuration": "",
+        "AppointmentDurationUnits": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "RequestedStartDate/TimeRange": {
+          "RangeStartDate/Time": "",
+          "RangeEndDate/Time": ""
+        },
+        "Priority-ARQ": "",
+        "RepeatingInterval": {
+          "RepeatPattern": "",
+          "ExplicitTimeInterval": ""
+        },
+        "RepeatingIntervalDuration": "",
+        "PlacerContactPerson": {
+          "IdNumber": "",
+          "FamilyName": "",
+          "GivenName": "",
+          "SecondandFurtherGivenNamesorInitialsThereof": "",
+          "Suffix": "",
+          "Prefix": "",
+          "Degree": "",
+          "SourceTable": "",
+          "AssigningAuthority": "",
+          "NameTypeCode": "",
+          "IdentifierCheckDigit": "",
+          "CheckDigitScheme": "",
+          "IdentifierTypeCode": "",
+          "AssigningFacility": "",
+          "NameRepresentationCode": "",
+          "NameContext": "",
+          "NameValidityRange": "",
+          "NameAssemblyOrder": "",
+          "EffectiveDate": "",
+          "ExpirationDate": "",
+          "ProfessionalSuffix": "",
+          "AssigningJurisdiction": "",
+          "AssigningAgencyorDepartment": ""
+        },
+        "PlacerContactPhoneNumber": {
+          "TelephoneNumber": "",
+          "TelecommunicationUseCode": "",
+          "TelecommunicationEquipmentType": "",
+          "EmailAddress": "",
+          "CountryCode": "",
+          "Area/,CityCode": "",
+          "LocalNumber": "",
+          "Extension": "",
+          "AnyText": "",
+          "ExtensionPrefix": "",
+          "SpeedDialCode": "",
+          "UnformattedTelephoneNumber": ""
+        },
+        "PlacerContactAddress": {
+          "StreetAddress": "",
+          "OtherDesignation": "",
+          "City": "",
+          "StateorProvince": "",
+          "ZiporPostalCode": "",
+          "Country": "",
+          "AddressType": "",
+          "OtherGeographicDesignation": "",
+          "County/ParishCode": "",
+          "CensusTract": "",
+          "AddressRepresentationCode": "",
+          "AddressValidityRange": "",
+          "EffectiveDate": "",
+          "ExpirationDate": ""
+        },
+        "PlacerContactLocation": {
+          "PointofCare": "",
+          "Room": "",
+          "Bed": "",
+          "Facility": "",
+          "LocationStatus": "",
+          "PersonLocationType": "",
+          "Building": "",
+          "Floor": "",
+          "LocationDescription": "",
+          "ComprehensiveLocationIdentifier": "",
+          "AssigningAuthorityforLocation": ""
+        },
+        "EnteredByPerson": {
+          "IdNumber": "",
+          "FamilyName": "",
+          "GivenName": "",
+          "SecondandFurtherGivenNamesorInitialsThereof": "",
+          "Suffix": "",
+          "Prefix": "",
+          "Degree": "",
+          "SourceTable": "",
+          "AssigningAuthority": "",
+          "NameTypeCode": "",
+          "IdentifierCheckDigit": "",
+          "CheckDigitScheme": "",
+          "IdentifierTypeCode": "",
+          "AssigningFacility": "",
+          "NameRepresentationCode": "",
+          "NameContext": "",
+          "NameValidityRange": "",
+          "NameAssemblyOrder": "",
+          "EffectiveDate": "",
+          "ExpirationDate": "",
+          "ProfessionalSuffix": "",
+          "AssigningJurisdiction": "",
+          "AssigningAgencyorDepartment": ""
+        },
+        "EnteredByPhoneNumber": {
+          "TelephoneNumber": "",
+          "TelecommunicationUseCode": "",
+          "TelecommunicationEquipmentType": "",
+          "EmailAddress": "",
+          "CountryCode": "",
+          "Area/,CityCode": "",
+          "LocalNumber": "",
+          "Extension": "",
+          "AnyText": "",
+          "ExtensionPrefix": "",
+          "SpeedDialCode": "",
+          "UnformattedTelephoneNumber": ""
+        },
+        "EnteredByLocation": {
+          "PointofCare": "",
+          "Room": "",
+          "Bed": "",
+          "Facility": "",
+          "LocationStatus": "",
+          "PersonLocationType": "",
+          "Building": "",
+          "Floor": "",
+          "LocationDescription": "",
+          "ComprehensiveLocationIdentifier": "",
+          "AssigningAuthorityforLocation": ""
+        },
+        "ParentPlacerAppointmentID": {
+          "EntityIdentifier": "",
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        },
+        "ParentFillerAppointmentID": {
+          "EntityIdentifier": "",
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        },
+        "PlacerOrderNumber": {
+          "EntityIdentifier": "",
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        },
+        "FillerOrderNumber": {
+          "EntityIdentifier": "",
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        }
+      },
+      "AUT": {
+        "AuthorizingPayor,PlanID": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "AuthorizingPayor,CompanyID": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "AuthorizingPayor,CompanyName": "",
+        "AuthorizationEffectiveDate": {
+          "Time": "",
+          "DegreeOfPrecision": ""
+        },
+        "AuthorizationExpirationDate": {
+          "Time": "",
+          "DegreeOfPrecision": ""
+        },
+        "AuthorizationIdentifier": {
+          "EntityIdentifier": "",
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        },
+        "ReimbursementLimit": {
+          "Price": "",
+          "PriceType": "",
+          "FromValue": "",
+          "ToValue": "",
+          "RangeUnits": "",
+          "RangeType": ""
+        },
+        "RequestedNumberofTreatments": "",
+        "AuthorizedNumberofTreatments": "",
+        "ProcessDate": {
+          "Time": "",
+          "DegreeOfPrecision": ""
+        }
+      },
+      "BHS": {
+        "BatchFieldSeparator": "",
+        "BatchEncodingCharacters": "",
+        "BatchSendingApplication": {
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        },
+        "BatchSendingFacility": {
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        },
+        "BatchReceivingApplication": {
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        },
+        "BatchReceivingFacility": {
+          "NamespaceId": "",
+          "UniversalId": "",
+          "UniversalIdType": ""
+        },
+        "BatchCreationDate/Time": {
+          "Time": "",
+          "DegreeOfPrecision": ""
+        },
+        "BatchSecurity": "",
+        "BatchName/ID/Type": "",
+        "BatchComment": "",
+        "BatchControlID": "",
+        "ReferenceBatchControlID": ""
+      },
+      "BLC": {
+        "BloodProductCode": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": ""
+        },
+        "BloodAmount": {
+          "Quantity": "",
+          "Units": ""
+        }
+      },
+      "BLG": {
+        "WhentoCharge": {
+          "InvocationEvent": "",
+          "Date/Time": ""
+        },
+        "ChargeType": "",
+        "AccountID": {
+          "IdNumber": "",
+          "CheckDigit": "",
+          "CheckDigitScheme": "",
+          "AssigningAuthority": "",
+          "IdentifierTypeCode": "",
+          "AssigningFacility": "",
+          "EffectiveDate": "",
+          "ExpirationDate": "",
+          "AssigningJurisdiction": "",
+          "AssigningAgencyOrDepartment": ""
+        },
+        "ChargeTypeReason": {
+          "Identifier": "",
+          "Text": "",
+          "NameOfCodingSystem": "",
+          "AlternateIdentifier": "",
+          "AlternateText": "",
+          "NameOfAlternateCodingSystem": "",
+          "CodingSystemVersionId": "",
+          "AlternateCodingSystemVersionId": "",
+          "OriginalText": ""
+        }
+      }
 }

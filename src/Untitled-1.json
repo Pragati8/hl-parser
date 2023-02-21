@@ -1,0 +1,178 @@
+: {
+    "Identifier": "",
+    "Text": "",
+    "NameOfCodingSystem": "",
+    "AlternateIdentifier": "",
+    "AlternateText": "",
+    "NameOfAlternateCodingSystem": ""
+},
+
+{
+    "Time": "",
+    "DegreeOfPrecision": ""
+},
+
+: {
+    "Quantity": "",
+    "Timing": "",
+    "Duration": "",
+    "StartDate/time": "",
+    "EndDate/time": "",
+    "Priority": "",
+    "Condition": "",
+    "Text": "",
+    "Conjunction": "",
+    "OrderSequencing": ""
+},
+"ResultCopiesTo": "",
+"ParentNumber": {
+    "ParentsPlacerOrderNumber": "",
+    "ParentsFillerOrderNumber": ""
+},
+
+: {
+    "IDNumber": "",
+    "FamilyName": "",
+    "GivenName": "",
+    "MiddleInitialOrName": "",
+    "Suffix": "",
+    "Prefix": "",
+    "Degree": "",
+    "SourceTable": "",
+    "AssigningAuthority": "",
+    "NameTypeCode": "",
+    "IdentifierCheckDigit": "",
+    "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+    "IdentifierTypeCode": "",
+    "AssigningFacility": "",
+    "NameRepresentationCode": "",
+    "NameContext": "",
+    "NameValidityRange": "",
+    "NameAssemblyOrder": "",
+    "EffectiveDate": "",
+    "ExpirationDate": "",
+    "ProfessionalSuffix": "",
+    "AssigningJurisdiction": "",
+    "AssigningAgencyOrDepartment": ""
+},
+
+: {
+    "IDNumber": "",
+    "FamilyName": "",
+    "GivenName": "",
+    "MiddleInitialOrName": "",
+    "Suffix": "",
+    "Prefix": "",
+    "Degree": "",
+    "SourceTable": "",
+    "AssigningAuthority": "",
+    "NameType": "",
+    "IdentifierCheckDigit": "",
+    "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+    "IdentifierTypeCode": "",
+    "AssigningFacilityID": ""
+},
+
+: {
+    "OccurrenceCode": "",
+    "OccurrenceDate": ""
+},
+
+: {
+    "ValueCode": "",
+    "ValueAmount": ""
+},
+
+: {
+    "EntityIdentifier": "",
+    "NamespaceId": "",
+    "UniversalId": "",
+    "UniversalIdType": ""
+},
+
+: {
+    "ID": "",
+    "CheckDigit": "",
+    "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+    "AssigningAuthority": "",
+    "IdentifierTypeCode": "",
+    "AssigningFacility": ""
+},
+
+: {
+    "FamilyName": "",
+    "GivenName": "",
+    "MiddleInitialOrName": "",
+    "Suffix": "",
+    "Prefix": "",
+    "Degree": "",
+    "NameTypeCode": "",
+    "NameRepresentationCode": ""
+},
+
+: {
+    "TelephoneNumber": "",
+    "TelecommunicationUseCode": "",
+    "TelecommunicationEquipmentType": "",
+    "EmailAddress": "",
+    "CountryCode": "",
+    "Area/cityCode": "",
+    "PhoneNumber": "",
+    "Extension": "",
+    "AnyText": ""
+},
+
+: {
+    "StreetAddress": "",
+    "OtherDesignation": "",
+    "City": "",
+    "StateOrProvince": "",
+    "ZipOrPostalCode": "",
+    "Country": "",
+    "AddressType": "",
+    "OtherGeographicDesignation": "",
+    "County/parishCode": "",
+    "CensusTract": ""
+},
+
+: {
+    "Date": "",
+    "Institution Name": ""
+},
+
+: {
+    "DriversLicenseNumber": "",
+    "IssuingState,Province,Country": "",
+    "ExpirationDate": ""
+},
+
+: {
+    "PointOfCare": "",
+    "Room": "",
+    "Bed": "",
+    "Facility": "",
+    "Location Status": "",
+    "Person Location Type": "",
+    "Building": "",
+    "Floor": "",
+    "LocationDescription": "",
+    "ComprehensiveLocationIdentifier": "",
+    "AssigningAuthorityForLocation": ""
+},
+
+: {
+    "PointOfCare": "",
+    "Room": "",
+    "Bed": "",
+    "Facility": "",
+    "LocationStatus": "",
+    "PersonLocationType": "",
+    "Building": "",
+    "Floor": "",
+    "LocationType": ""
+},
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Pragati8/hl-parser.git
+git push -u origin main
