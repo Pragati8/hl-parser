@@ -13,6 +13,15 @@
 },
 
 : {
+    "Price": "",
+    "PriceType": "",
+    " FromValue": "",
+    "ToValue": "",
+    "RangeUnits": "",
+    "RangeType": ""
+},
+
+: {
     "Quantity": "",
     "Timing": "",
     "Duration": "",
@@ -71,6 +80,25 @@
     "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
     "IdentifierTypeCode": "",
     "AssigningFacilityID": ""
+},
+
+: {
+    "PointOfCare": "",
+    "Room": "",
+    "Bed": "",
+    "Facility": "",
+    "LocationStatus": "",
+    "PersonLocationType": "",
+    "Building": "",
+    "Floor": "",
+    "StreetAddress": "",
+    "OtherDesignation": "",
+    "City": "",
+    "StateOrProvince": "",
+    "ZipOrPostal Code": "",
+    "Country": "",
+    "AddressType": "",
+    "OtherGeographicDesignation": ""
 },
 
 : {
@@ -172,7 +200,27 @@
     "LocationType": ""
 },
 
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Pragati8/hl-parser.git
+: {
+    "Quantity": "",
+    "Units": ""
+},
+
+"SenderOrganizationName"
+        "SenderIndividualName"
+        "SenderAddress"
+        "SenderTelephone"
+        "SenderEventIdentifier"
+        "SenderSequenceNumber"
+        "SenderEventDescription"
+        "SenderComment"
+        "SenderAwareDate/Time"
+        "EventReportDate"
+        "EventReportTiming/Type"
+        "EventReportSource"
+        "EventReportedTo";
+
+git commit m "first commit"
+git branch M main
+git remote add origin https://github.com/Pragati8/hlparser.git
 git push -u origin main
+
