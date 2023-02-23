@@ -27,7 +27,6 @@ const Display = () => {
         for(let k=0;k<mainMsgArr.length;k++) {
             msgArr = mainMsgArr[k].split("|");
             eachMsgSeg = `{`;
-            console.log(msgArr);
 
             if(hl7[msgArr[0]]) {
                 mKeys = Object.keys(hl7[msgArr[0]]);
@@ -57,8 +56,8 @@ const Display = () => {
                             }
 
                         } else {
-                            JSONText = `${JSONText} "${subKey[0]}": "${msgArr[msgIndex]?msgArr[msgIndex]:""}",\n\t\t`;
-                            eachMsgSeg = `${eachMsgSeg}"${subKey[0]}": "${msgArr[msgIndex]?msgArr[msgIndex]:""}",\n\t\t`;
+                            JSONText = `${JSONText} "${subKey[0]}": "${msgArr[msgIndex]?msgArr[msgIndex]:""}"${subKey.length>1?",":""}\n\t\t`;
+                            eachMsgSeg = `${eachMsgSeg}"${subKey[0]}": "${msgArr[msgIndex]?msgArr[msgIndex]:""}"${subKey.length>1?",":""}\n\t\t`;
 
                             for(let j=1;j<subKey.length;j++) {
                                 JSONText = `${JSONText} "${subKey[j]}": ""${j!==subKey.length-1?",":""}\n\t\t`;
@@ -77,7 +76,7 @@ const Display = () => {
                 }
                 JSONText = `${JSONText} \n }`;
                 eachMsgSeg = `${eachMsgSeg} \n }`;
-                console.log(JSONText);
+                // console.log(JSONText);
 
                 let index = arrayMsgSeg.indexOf(msgArr[0]);
                 if(index !== -1)
