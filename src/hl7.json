@@ -6534,5 +6534,2033 @@
             "NameRepresentationCode": ""
         }
     },
-    "PES": {}
+    "PES": {
+        "Sender Organization Name": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "Sender Individual Name": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "Sender Address": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateOrProvince": "",
+            "ZipOrPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/parishCode": "",
+            "CensusTract": ""
+        },
+        "Sender Telephone": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/cityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "Sender Event Identifier": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "Sender Sequence Number": "",
+        "Sender Event Description": "",
+        "Sender Comment": "",
+        "Sender Aware Date/Time": "",
+        "Event Report Date": "",
+        "Event Report Timing/Type": "",
+        "Event Report Source": "",
+        "Event Reported To": ""
+    },
+    "PEO": {
+        "EventIdentifiersUsed": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "EventSymptom/DiagnosisCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "EventOnsetDate/Time": "",
+        "EventExacerbationDate/Time": "",
+        "EventImprovedDate/Time": "",
+        "EventEndedData/Time": "",
+        "EventLocationOccurredAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateOrProvince": "",
+            "ZipOrPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/parishCode": "",
+            "CensusTract": ""
+        },
+        "EventQualification": "",
+        "EventSerious": "",
+        "EventExpected": "",
+        "EventOutcome": "",
+        "PatientOutcome": "",
+        "EventDescriptionFromOthers": "",
+        "EventFromOriginalReporter": "",
+        "EventDescriptionFromPatient": "",
+        "EventDescriptionFromPractitioner": "",
+        "EventDescriptionFromAutopsy": "",
+        "CauseOfDeath": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "PrimaryObserverName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "PrimaryObserverAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateOrProvince": "",
+            "ZipOrPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/parishCode": "",
+            "CensusTract": ""
+        },
+        "PrimaryObserverTelephone": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/cityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "PrimaryObserversQualification": "",
+        "ConfirmationProvidedBy": "",
+        "PrimaryObserverAwareDate/Time": "",
+        "PrimaryObserversIdentityMayBeDivulged": ""
+    },
+    "PDC": {
+        "Manufacturer/Distributor": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "Country": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "BrandName": "",
+        "DeviceFamilyName": "",
+        "GenericName": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ModelIdentifier": "",
+        "CatalogueIdentifier": "",
+        "OtherIdentifier": "",
+        "ProductCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "MarketingBasis": "",
+        "MarketingApprovalIdentifier": "",
+        "LabeledShelfLife": {
+            "Quantity": "",
+            "Units": ""
+        },
+        "ExpectedShelfLife": {
+            "Quantity": "",
+            "Units": ""
+        },
+        "DateFirstMarked": "",
+        "DateLastMarked": ""
+    },
+    "PD1": {
+        "LivingDependency": "",
+        "LivingArrangement": "",
+        "PatientPrimaryFacility": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "PatientPrimaryCareProviderName&IDNo.": {
+            "IDNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "StudentIndicator": "",
+        "Handicap": "",
+        "LivingWill": "",
+        "OrganDonor": "",
+        "SeparateBill": "",
+        "DuplicatePatient": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "PublicityIndicator": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ProtectionIndicator": ""
+    },
+    "PCR": {
+        "ImplicatedProduct": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "GenericProduct": "",
+        "ProductClass": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "TotalDurationOfTherapy": {
+            "Quantity": "",
+            "Units": ""
+        },
+        "ProductManufactureDate": "",
+        "ProductExpirationDate": "",
+        "ProductImplantationDate": "",
+        "ProductExplantationDate": "",
+        "SingleUseDevice": "",
+        "IndicationForProductUse": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ProductProblem": "",
+        "ProductSerial/LotNumber": "",
+        "ProductAvailableForInspection": "",
+        "ProductEvaluationPerformed": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ProductEvaluationStatus": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ProductEvaluationResults": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "EvaluatedProductSource": "",
+        "DateProductReturnedToManufacturer": "",
+        "DeviceOperatorQualifications": "",
+        "RelatednessAssessment": "",
+        "ActionTakenInResponseToTheEvent": "",
+        "EventCausalityObservations": "",
+        "IndirectExposureMechanism": ""
+    },
+    "OM6": {
+        "SequenceNumber": "",
+        "DerivationRule": ""
+    },
+    "OM5": {
+        "SequenceNumber": "",
+        "Test/ObservationsIncludedw/anOrderedTestBattery": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ObservationIDSuffixes": ""
+    },
+    "OM4": {
+        "SequenceNumber": "",
+        "DerivedSpecimen": "",
+        "ContainerDescription": "",
+        "ContainerVolume": "",
+        "ContainerUnits": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Specimen": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Additive": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Preparation": "",
+        "SpecialHandlingRequirements": "",
+        "NormalCollectionVolume": {
+            "Quantity": "",
+            "Units": ""
+        },
+        "MinimumCollectionVolume": {
+            "Quantity": "",
+            "Units": ""
+        },
+        "SpecimenRequirements": "",
+        "SpecimenPriorities": "",
+        "SpecimenRetentionTime": {
+            "Quantity": "",
+            "Units": ""
+        }
+    },
+    "OM3": {
+        "Sequence Number": "",
+        "Preferred Coding System": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Valid Coded Answers": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Normal Text/Codes for Categorical Observations": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Abnormal Text/Codes for Categorical Observations": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Critical Text Codes for Categorical Observations": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Value Type": ""
+    },
+    "OM2": {
+        "SequenceNumber": "",
+        "UnitsofMeasure": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "RangeofDecimalPrecision": "",
+        "CorrespondingSIUnitsofMeasure": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "SIConversionFactor": "",
+        "Reference": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "CriticalRangeforOrdinal&ContinuousObs": {
+            "LowValue": "",
+            "HighValue": ""
+        },
+        "AbsoluteRangeforOrdinal&ContinuousObs": {
+            "Range": "",
+            "NumericChange": "",
+            "PercentPerChange": "",
+            "Days": ""
+        },
+        "DeltaCheckCriteria": {
+            "Range": "",
+            "NumericThreshold": "",
+            "Change": "",
+            "LengthOfTime-days": ""
+        },
+        "MinimumMeaningfulIncrements": ""
+    },
+    "OM1": {
+        "SequenceNumber": "",
+        "ProducersTest/ObservationID": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "PermittedDataTypes": "",
+        "SpecimenRequired": "",
+        "ProducerID": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ObservationDescription": "",
+        "OtherTest/ObservationIDsfortheObservation": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "OtherNames": "",
+        "PreferredReportNamefortheObservation": "",
+        "PreferredShortNameorMnemonicforObservation": "",
+        "PreferredLongNamefortheObservation": "",
+        "Orderability": "",
+        "IdentityofInstrumentUsedtoPerfromthisStudy": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "CodedRepresentationofMethod": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Portable": "",
+        "ObservationProducingDepartment/Section": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "TelephoneNumberofSection": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/cityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "NatureofTest/Observation": "",
+        "ReportSubheader": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ReportDisplayOrder": "",
+        "Date/TimeStampforanychangeinDefAttriforObs": "",
+        "EffectiveDate/TimeofChangeinTestProc.thatmakeResultsNonComparable": "",
+        "TypicalTurnAroundTime": "",
+        "ProcessingTime": "",
+        "ProcessingPriority": "",
+        "ReportingPriority": "",
+        "OutsideSite": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "AddressofOutsideSite": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateOrProvince": "",
+            "ZipOrPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/parishCode": "",
+            "CensusTract": ""
+        },
+        "PhoneNumberofOutsideSite": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/cityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "ConfidentialityCode": "",
+        "ObservationsRequiredtoInterprettheObservation": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "InterpretationofObservations": "",
+        "ContraindicationstoObservations": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ReflexTests/Observations": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "RulesthatTriggerReflexTesting": "",
+        "FixedCannedMessage": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "PatientPreparation": "",
+        "ProcedureMedication": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "FactorsthatmayEffecttheObservation": "",
+        "Test/ObservationPerformanceSchedule": "",
+        "DescriptionofTestMethods": "",
+        "KindofQuantityObserved": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "PointversusInterval": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Challengeinformation": "",
+        "Relationshipmodifier": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Targetanatomicsiteoftest": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Modalityofimagingmeasurement": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        }
+    },
+    "ODT": {
+        "TrayType": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ServicePeriod": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "TextInstruction": ""
+    },
+    "GT1": {
+        "SetID-GT1": "",
+        "GuarantorNumber": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "GuarantorName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "GuarantorSpouseName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "GuarantorAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateorProvince": "",
+            "ZiporPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/ParishCode": "",
+            "CensusTract": ""
+        },
+        "GuarantorPhNum-Home": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/,CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "GuarantorPhNum-Business": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/,CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "GuarantorDate/TimeOfBirth": {
+            "TimeOfAnEvent": ""
+        },
+        "GuarantorAdministrativeSex": "",
+        "GuarantorType": "",
+        "GuarantorRelationship": "",
+        "GuarantorSSN": "",
+        "GuarantorDate-Begin": "",
+        "GuarantorDate-End": "",
+        "GuarantorPriority": "",
+        "GuarantorEmployerName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "GuarantorEmployerAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateorProvince": "",
+            "ZiporPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/ParishCode": "",
+            "CensusTract": ""
+        },
+        "GuarantorEmployerPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/,CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "GuarantorEmployeeIDNumber": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "GuarantorEmploymentStatus": "",
+        "GuarantorOrganization": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "GuarantorBillingHoldFlag": "",
+        "GuarantorCreditRatingCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "GuarantorDeathDateAndTime": {
+            "TimeOfAnEvent": ""
+        },
+        "GuarantorDeathFlag": "",
+        "GuarantorChargeAdjustmentCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "GuarantorHouseholdAnnualIncome": {
+            "Price": "",
+            "PriceType": "",
+            "FromValue": "",
+            "ToValue": "",
+            "RangeUnits": "",
+            "RangeType": ""
+        },
+        "GuarantorHouseholdSize": "",
+        "GuarantorEmployerIDNumber": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "GuarantorMaritalStatusCode": "",
+        "GuarantorHireEffectiveDate": "",
+        "EmploymentStopDate": "",
+        "LivingDependency": "",
+        "AmbulatoryStatus": "",
+        "Citizenship": "",
+        "PrimaryLanguage": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "LivingArrangement": "",
+        "PublicityCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ProtectionIndicator": "",
+        "StudentIndicator": "",
+        "Religion": "",
+        "Mother'sMaidenName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "NationalityCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "EthnicGroup": "",
+        "ContactPerson,'sName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "ContactPerson'sTelephoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/,CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "ContactReason": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ContactRelationship": "",
+        "JobTitle": "",
+        "JobCode/Class": {
+            "JobCode": "",
+            "JobClass": ""
+        },
+        "GuarantorEmployer'sOrganizationName": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "Handicap": "",
+        "JobStatus": "",
+        "GuarantorFinancialClass": {
+            "FinancialClass": "",
+            "EffectiveDate": ""
+        },
+        "GuarantorRace": ""
+    },
+    "IN1": {
+        "SetID-IN1": "",
+        "HealthPlanID": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "InsuranceCompanyID": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "InsuranceCompanyName": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "InsuranceCompanyAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateorProvince": "",
+            "ZiporPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/ParishCode": "",
+            "CensusTract": ""
+        },
+        "InsuranceCoContactPerson": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "InsuranceCoPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "GroupNumber": "",
+        "GroupName": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "Insured'sGroupEmpID": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "Insured'sGroupEmpName": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "PlanEffectiveDate": "",
+        "PlanExpirationDate": "",
+        "AuthorizationInformation": {
+            "AuthorizationNumber": "",
+            "DAte": "",
+            "Source": ""
+        },
+        "PlanType": "",
+        "NameOfInsured": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "Insured'sRelationshipToPatient": "",
+        "Insured'sDateOfBirth": {
+            "TimeOfAnEvent": ""
+        },
+        "Insured'sAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateorProvince": "",
+            "ZiporPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/ParishCode": "",
+            "CensusTract": ""
+        },
+        "AssignmentOfBenefits": "",
+        "CoordinationOfBenefits": "",
+        "CoordOfBenPriority": "",
+        "NoticeOfAdmissionFlag": "",
+        "NoticeOfAdmissionDate": "",
+        "ReportOfEligibilityFlag": "",
+        "ReportOfEligibilityDate": "",
+        "ReleaseInformationCode": "",
+        "Pre-AdmitCert": "",
+        "VerificationDate/Time": {
+            "TimeOfAnEvent": ""
+        },
+        "VerificationBy": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameType": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "TypeOfAgreementCode": "",
+        "BillingStatus": "",
+        "LifetimeReserveDays": "",
+        "DelayBeforeL.R.Day": "",
+        "CompanyPlanCode": "",
+        "PolicyNumber": "",
+        "PolicyDeductible": {
+            "Price": "",
+            "PriceType": "",
+            "FromValue": "",
+            "ToValue": "",
+            "RangeUnits": "",
+            "RangeType": ""
+        },
+        "PolicyLimit-Amount": {
+            "Price": "",
+            "PriceType": "",
+            "FromValue": "",
+            "ToValue": "",
+            "RangeUnits": "",
+            "RangeType": ""
+        },
+        "PolicyLimit-Days": "",
+        "RoomRate-Semi-Private": {
+            "Price": "",
+            "PriceType": "",
+            "FromValue": "",
+            "ToValue": "",
+            "RangeUnits": "",
+            "RangeType": ""
+        },
+        "RoomRate-Private": {
+            "Price": "",
+            "PriceType": "",
+            "FromValue": "",
+            "ToValue": "",
+            "RangeUnits": "",
+            "RangeType": ""
+        },
+        "Insured'sEmploymentStatus": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Insured'sAdministrativeSex": "",
+        "Insured'sEmployer'sAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateorProvince": "",
+            "ZiporPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/ParishCode": "",
+            "CensusTract": ""
+        },
+        "VerificationStatus": "",
+        "PriorInsurancePlanID": "",
+        "CoverageType": "",
+        "Handicap": "",
+        "Insured'sIDNumber": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        }
+    },
+    "IN2": {
+        "Insured'sEmployeeID": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "Insured'sSocialSecurityNumber": "",
+        "Insured'sEmployer'sName": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "EmployerInformationData": "",
+        "MailClaimParty": "",
+        "MedicareHealthInsCardNumber": "",
+        "MedicaidCaseName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NAmeRepresentationCode": ""
+        },
+        "MedicaidCaseNumber": "",
+        "ChampusSponsorName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NAmeRepresentationCode": ""
+        },
+        "ChampusIDNumber": "",
+        "DependentOfChampusRecipient": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ChampusOrganization": "",
+        "ChampusStation": "",
+        "ChampusService": "",
+        "ChampusRank/Grade": "",
+        "ChampusStatus": "",
+        "ChampusRetireDate": "",
+        "ChampusNon-AvailCertOnFile": "",
+        "BabyCoverage": "",
+        "CombineBabyBill": "",
+        "BloodDeductible": "",
+        "SpecialCoverageApprovalName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NAmeRepresentationCode": ""
+        },
+        "SpecialCoverageApprovalTitle": "",
+        "Non-CoveredInsuranceCode": "",
+        "PayorID": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "PayorSubscriberID": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "EligibilitySource": "",
+        "RoomCoverageType/Amount": {
+            "RoomType": "",
+            "AmountType": "",
+            "CoverageAmount": ""
+        },
+        "PolicyType/Amount": {
+            "PolicyType": "",
+            "AmountClass": "",
+            "Amount": ""
+        },
+        "DailyDeductible": {
+            "DelayDays": "",
+            "Amount": "",
+            "NumberOfDays": ""
+        },
+        "LivingDependency": "",
+        "AmbulatoryStatus": "",
+        "Citizenship": "",
+        "PrimaryLanguage": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "LivingArrangement": "",
+        "PublicityCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ProtectionIndicator": "",
+        "StudentIndicator": "",
+        "Religion": "",
+        "Mother'sMaidenName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "NationalityCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "EthnicGroup": "",
+        "MaritalStatus": "",
+        "Insured'sEmploymentStartDate": "",
+        "EmploymentStopDate": "",
+        "JobTitle": "",
+        "JobCode/Class": {
+            "JobCode": "",
+            "JobClass": ""
+        },
+        "JobStatus": "",
+        "EmployerContactPersonName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "EmployerContactPersonPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "EmployerContactReason": "",
+        "Insured'sContactPerson'sName": {
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        },
+        "Insured'sContactPersonPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "Insured'sContactPersonReason": "",
+        "RelationshiptothePatientStartDate": "",
+        "RelationshiptothePatientStopDate": "",
+        "InsuranceCoContactReason": "",
+        "InsuranceCoContactPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "PolicyScope": "",
+        "PolicySource": "",
+        "PatientMemberNumber": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "Guarantor'sRelationshiptoInsured": "",
+        "Insured'sPhoneNumber-Home": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "Insured'sEmployerPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "MilitaryHandicappedProgram": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "SuspendFlag": "",
+        "CopayLimitFlag": "",
+        "StoplossLimitFlag": "",
+        "InsuredOrganizationNameandID": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "InsuredEmployerOrganizationNameandID": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "Race": "",
+        "PatientsRelationshiptoInsured": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        }
+    },
+    "IN3": {
+        "SetID-IN3": "",
+        "CertificationNumber": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "CertifiedBy": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "CertificationRequired": "",
+        "Penalty": {
+            "PenaltyType": "",
+            "PenaltyAmount": ""
+        },
+        "CertificationDate/Time": {
+            "TimeOfAnEvent": ""
+        },
+        "CertificationModifyDate/Time": {
+            "TimeOfAnEvent": ""
+        },
+        "Operator": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "CertificationBeginDate": "",
+        "CertificationEndDate": "",
+        "Days": {
+            "DayType": "",
+            "NumberOfDays": ""
+        },
+        "Non-ConcurCode/Description": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "Non-ConcurEffectiveDate/Time": {
+            "TimeOfAnEvent": ""
+        },
+        "PhysicianReviewer": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "CertificationContact": "",
+        "CertificationContactPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "AppealReason": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "CertificationAgency": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "CertificationAgencyPhoneNumber": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "Pre-CertificationRequirement": {
+            "Pre-certificationPatientType": "",
+            "Pre-certificationRequired": "",
+            "Pre-certificationWindwow": ""
+        },
+        "CaseManager": "",
+        "SecondOpinionDate": "",
+        "SecondOpinionStatus": "",
+        "SecondOpinionDocumentationReceived": "",
+        "SecondOpinionPhysician": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "SourceTable": "",
+            "AssigningAuthority": "",
+            "NameTypeCode": "",
+            "IdentifierCheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        }
+    },
+    "LCC": {
+        "PrimaryKeyValue": {
+            "PointofCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PersonLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "LocationType": ""
+        },
+        "LocationDepartment": "",
+        "AccommodationType": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ChargeCode": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        }
+    },
+    "LCH": {
+        "PrimaryKeyValue": {
+            "PointOfCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PatientLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "Address": ""
+        },
+        "SegmentActionCode": "",
+        "SegmentUniqueKey": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "LocationCharacteristicID": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "LocationCharacteristicValue": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        }
+    },
+    "LDP": {
+        "PrimaryKeyValue-LDP": {
+            "PointOfCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PatientLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "Address": ""
+        },
+        "LocationDepartment": "",
+        "LocationService": "",
+        "SpecialtyType": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "ValidPatientClasses": "",
+        "Active/InactiveFlag": "",
+        "ActivationDate": {
+            "TimeOfAnEvent": ""
+        },
+        "InactivationDate-LDP": {
+            "TimeOfAnEvent": ""
+        },
+        "InactivatedReason": "",
+        "VisitingHours": {
+            "StartDayRange": "",
+            "EndDayRange": "",
+            "StartHourRange": "",
+            "EndHourRange": ""
+        },
+        "ContactPhone": "",
+        "LocationCostCenter": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        }
+    },
+    "LOC": {
+        "PrimaryKeyValue-LOC": {
+            "PointOfCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PatientLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "Address": ""
+        },
+        "LocationDescription": "",
+        "LocationType-LOC": "",
+        "OrganizationName": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "LocationAddress": {
+            "StreetAddress": "",
+            "OtherDesignation": "",
+            "City": "",
+            "StateorProvince": "",
+            "ZiporPostalCode": "",
+            "Country": "",
+            "AddressType": "",
+            "OtherGeographicDesignation": "",
+            "County/ParishCode": "",
+            "CensusTract": ""
+        },
+        "LocationPhone": {
+            "TelephoneNumber": "",
+            "TelecommunicationUseCode": "",
+            "TelecommunicationEquipmentType": "",
+            "EmailAddress": "",
+            "CountryCode": "",
+            "Area/CityCode": "",
+            "PhoneNumber": "",
+            "Extension": "",
+            "AnyText": ""
+        },
+        "LicenseNumber": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "LocationEquipment": ""
+    },
+    "LRL": {
+        "PrimaryKeyValue-LRL": {
+            "PointofCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PersonLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "LocationType": ""
+        },
+        "SegmentActionCode": "",
+        "SegmentUniqueKey": {
+            "EntityIdentifier": "",
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "LocationRelationshipID": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "OrganizationalLocationRelationshipValue": {
+            "OrganizationName": "",
+            "OrganizationNameTypeCode": "",
+            "IDNumber": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacilityID": ""
+        },
+        "PatientLocationRelationshipValue": {
+            "PointofCare": "",
+            "Room": "",
+            "Bed": "",
+            "Facility": "",
+            "LocationStatus": "",
+            "PersonLocationType": "",
+            "Building": "",
+            "Floor": "",
+            "LocationType": ""
+        }
+    },
+    "MFA": {
+        "Record-LevelEventCode": "",
+        "MFNControlID": "",
+        "EventCompletionDate/Time": {
+            "TimeOfAnEvent": ""
+        },
+        "ErrorReturnCodeand/orText": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "PrimaryKeyValue": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        }
+    },
+    "MFE": {
+        "Record-LevelEventCode": "",
+        "MFNControlID": "",
+        "EffectiveDate/Time": {
+            "TimeOfAnEvent": ""
+        },
+        "PrimaryKeyValue": ""
+    },
+    "MFI": {
+        "MasterFileIdentifier": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        },
+        "MasterFileApplicationIdentifier": {
+            "NamespaceId": "",
+            "UniversalId": "",
+            "UniversalIdType": ""
+        },
+        "File-LevelEventCode": "",
+        "EnteredDate/Time": {
+            "TimeOfAnEvent": ""
+        },
+        "EffectiveDate/Time": {
+            "TimeOfAnEvent": ""
+        },
+        "ResponseLevelCode": ""
+    },
+    "MRG": {
+        "PriorPatientIdentifierList": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "PriorAlternatePatientID": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "PriorPatientAccountNumber": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "PriorPatientID": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "PriorVisitNumber": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "PriorAlternateVisitID": {
+            "ID": "",
+            "CheckDigit": "",
+            "CodeIdentifyingTheCheckDigitSchemeEmployed": "",
+            "AssigningAuthority": "",
+            "IdentifierTypeCode": "",
+            "AssigningFacility": ""
+        },
+        "PriorPatientName": {
+            "IdNumber": "",
+            "FamilyName": "",
+            "GivenName": "",
+            "MiddleInitialOrName": "",
+            "Suffix": "",
+            "Prefix": "",
+            "Degree": "",
+            "NameTypeCode": "",
+            "NameRepresentationCode": ""
+        }
+    },
+    "MSA": {
+        "Acknowledgementcode": "",
+        "MessageControlID": "",
+        "TextMessage": "",
+        "ExpectedSequenceNumber": "",
+        "DelayedAcknowledgementType": "",
+        "ErrorCondition": {
+            "Identifier": "",
+            "Text": "",
+            "NameOfCodingSystem": "",
+            "AlternateIdentifier": "",
+            "AlternateText": "",
+            "NameOfAlternateCodingSystem": ""
+        }
+    },
+    "NCK": {
+        "SystemDate/Time": {
+            "TimeOfAnEvent": ""
+        }
+    },
+    "NSC": {
+        "ApplicationChangeType": "",
+        "CurrentCPU": "",
+        "CurrentFileserver": "",
+        "CurrentApplication": "",
+        "CurrentFacility": "",
+        "NewCPU": "",
+        "NewFileserver": "",
+        "NewApplication": "",
+        "NewFacility": ""
+    },
+    "NST": {
+        "StatisticsAvailable": "",
+        "SourceIdentifier": "",
+        "SourceType": "",
+        "StatisticsStart": {
+            "TimeOfAnEvent": ""
+        },
+        "StatisticsEnd": {
+            "TimeOfAnEvent": ""
+        },
+        "ReceiveCharacterCount": "",
+        "SendCharacterCount": "",
+        "MessagesReceived": "",
+        "MessagesSent": "",
+        "ChecksumErrorsReceived": "",
+        "LengthErrorsReceived": "",
+        "OtherErrorsReceived": "",
+        "ConnectTimeouts": "",
+        "ReceiveTimeouts": "",
+        "NetworkErrors": ""
+    }
 }
