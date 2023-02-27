@@ -7,24 +7,44 @@ const Display = () => {
     let JSONText = {};
     let eachMsgSeg = {};
     let [JText, setJText] = useState({});
-    let arrayMsgSeg = ["OBX"];
+    let nArrayMsgSeg = [];
+    let arrayMsgSeg = [];
     let arrayMsgSegValues = [];
-    for(let p=0;p<arrayMsgSeg.length;p++) {
-        arrayMsgSegValues[p] = [];
-    }
 
     //function called on parseMessage button
     function parseMessage() {
-        // const JSONText = document.querySelector('#parseMsg');
-        const msg = document.querySelector('#msg').value;
+
+        document.querySelector('#pMsg').style.display = "block"
+
+        let msg = document.querySelector('#msg').value;
+        let pattern = /\\n/g;
+        msg = msg.replace(pattern, '\n');
+
         const mainMsgArr = msg.split('\n');
+        let mArr = [];
         let msgArr = [];
         let mKeys, mValues;
         JSONText = `{`;
         let msgIndex;
         setJText(JSONText);
+        let count = 0;
 
         for(let k=0;k<mainMsgArr.length;k++) {
+            mArr = mainMsgArr[k].split("|");
+            if(!nArrayMsgSeg.includes(mArr[0]))
+                nArrayMsgSeg.push(mArr[0]);
+            else {
+                
+                if(!arrayMsgSeg.includes(mArr[0])) {
+                    arrayMsgSeg.push(mArr[0]);
+                    arrayMsgSegValues[count] = [];
+                    count++;
+                }
+            }
+        }
+
+        for(let k=0;k<mainMsgArr.length;k++) {
+            mainMsgArr[k] = mainMsgArr[k].trim();
             msgArr = mainMsgArr[k].split("|");
             eachMsgSeg = `{`;
 
@@ -95,6 +115,8 @@ const Display = () => {
             }
         }
         JSONText = `${JSONText}\n}`
+        let reg = /\\/g
+        JSONText = JSONText.replace(reg,"\\\\");
         console.log(JSONText);
         
         setJText(JSON.parse(JSONText));
@@ -105,12 +127,12 @@ const Display = () => {
     <div className="container">
         <div className="row">
             <div className="col my-4">
-                <p className="h2">Parse HL7 Message 2</p>
+                <p className="h2">HL7 to JSON Parser</p>
             </div>
         </div>
         <div className="row">
             <div className="col">
-                <label className="form-label">Text Message</label>
+                <label className="form-label">HL7 Text</label>
                 <textarea className="form-control" rows="12" id="msg"></textarea>
             </div>
         </div>
@@ -120,8 +142,8 @@ const Display = () => {
             </div>
         </div>
         <div className="row">
-            <div className="col">
-                <label className="form-label">Parse Message</label>
+            <div className="col" style={{display: 'none'}} id='pMsg'>
+                <label className="form-label">JSON Text</label>
                 <JSONViewer JText={JText} displayDataTypes={false} collapsed={2} />
             </div>
         </div>
