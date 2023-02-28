@@ -2,6 +2,7 @@ import React from 'react';
 import hl7 from '../hl7.json';
 import JSONViewer from './JSONViewer';
 import { useState } from 'react';
+import './Display.css';
 
 const Display = () => {
     let JSONText = {};
@@ -13,9 +14,6 @@ const Display = () => {
 
     //function called on parseMessage button
     function parseMessage() {
-
-        document.querySelector('#pMsg').style.display = "block"
-
         let msg = document.querySelector('#msg').value;
         let pattern = /\\n/g;
         msg = msg.replace(pattern, '\n');
@@ -30,6 +28,7 @@ const Display = () => {
         let count = 0;
 
         for(let k=0;k<mainMsgArr.length;k++) {
+            mainMsgArr[k] = mainMsgArr[k].trim();
             mArr = mainMsgArr[k].split("|");
             if(!nArrayMsgSeg.includes(mArr[0]))
                 nArrayMsgSeg.push(mArr[0]);
@@ -44,7 +43,6 @@ const Display = () => {
         }
 
         for(let k=0;k<mainMsgArr.length;k++) {
-            mainMsgArr[k] = mainMsgArr[k].trim();
             msgArr = mainMsgArr[k].split("|");
             eachMsgSeg = `{`;
 
@@ -69,7 +67,7 @@ const Display = () => {
                         
                         if(msgArr[msgIndex] && msgArr[msgIndex].includes('^')) {
                             let subValues = msgArr[msgIndex].split('^');
-                            // console.log(subValues);
+                           
                             for(let j=0;j<subKey.length;j++) {
                                 JSONText = `${JSONText} "${subKey[j]}": ${subValues[j]!==undefined?`"${subValues[j]}"`:"\"\""}${j!==subKey.length-1?",":""}\n\t\t`;
                                 eachMsgSeg = `${eachMsgSeg}"${subKey[j]}": ${subValues[j]!==undefined?`"${subValues[j]}"`:"\"\""}${j!==subKey.length-1?",":""}\n\t\t`
@@ -96,7 +94,6 @@ const Display = () => {
                 }
                 JSONText = `${JSONText} \n }`;
                 eachMsgSeg = `${eachMsgSeg} \n }`;
-                // console.log(JSONText);
 
                 let index = arrayMsgSeg.indexOf(msgArr[0]);
                 if(index !== -1)
@@ -108,7 +105,7 @@ const Display = () => {
                 mValues = [];
             }   
         }
-        // JSONText = `${JSONText}\n}`
+
         for(let i=0;i<arrayMsgSeg.length;i++) {
             if(arrayMsgSegValues[i].length !== 0) {
                 JSONText = `${JSONText},\n"${arrayMsgSeg[i]}":[${arrayMsgSegValues[i]}]`
@@ -117,38 +114,30 @@ const Display = () => {
         JSONText = `${JSONText}\n}`
         let reg = /\\/g
         JSONText = JSONText.replace(reg,"\\\\");
-        console.log(JSONText);
         
         setJText(JSON.parse(JSONText));
 
     }
 
   return (
-    <div className="container">
-        <div className="row">
-            <div className="col my-4">
-                <p className="h2">HL7 to JSON Parser</p>
-            </div>
+    <>
+        <div className=''>
+            <p className="header1">HL7 to JSON Parser</p>
         </div>
-        <div className="row">
-            <div className="col">
+        <div className='flex-container'>
+            <div className="div1">
                 <label className="form-label">HL7 Text</label>
-                <textarea className="form-control" rows="12" id="msg"></textarea>
+                <textarea className="form-control textArea1" id="msg" onChange={parseMessage}></textarea>
             </div>
-        </div>
-        <div className="row">
-            <div className="col my-3">
-                <button type="button" className="btn btn-primary" onClick={parseMessage}>Parse Message</button>
-            </div>
-        </div>
-        <div className="row">
-            <div className="col" style={{display: 'none'}} id='pMsg'>
+            <div className="div2">
                 <label className="form-label">JSON Text</label>
-                <JSONViewer JText={JText} displayDataTypes={false} collapsed={2} />
+                <div className="jviewer">
+                    <JSONViewer JText={JText} displayDataTypes={false} theme={"summerfruit:inverted"} collapsed={2} />
+                </div>
             </div>
         </div>
-        
-    </div>
+    </>
+    
   )
 }
 
