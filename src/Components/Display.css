@@ -5,7 +5,7 @@
 
 .flex-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 20px;
     height: 80vh;
 }
@@ -16,13 +16,35 @@
 }
 
 .div1 {
-    flex-grow: 3;  
+    /* flex-grow: 3;   */
+    width: 30%;
     font-weight: 500;
 }
 
 .div2 {
-    flex-grow: 7;
+    /* flex-grow: 7; */
+    width: 70%;
     font-weight: 500;
+}
+
+.div2-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2-1-1 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 70%;
+    align-items: center;
+}
+
+
+.div2-1-1 .form-control{
+    width: 35% !important;
+    margin: -15px 0px 10px 0px;
+    border-radius: 8px;
 }
 
 .div1 textarea.form-control{
