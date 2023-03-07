@@ -25,12 +25,12 @@
     font-weight: 500;
 }
 
-.div2-1 {
+.jviewer-label {
     display: flex;
     justify-content: space-between;
 }
 
-.div2-1-1 {
+.search-toggle-div {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
@@ -39,7 +39,7 @@
 }
 
 
-.div2-1-1 .form-control{
+.search-toggle-div .form-control{
     width: 35% !important;
     margin: -12px 0px 0px 0px;
     border-radius: 8px;

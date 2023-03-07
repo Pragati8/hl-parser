@@ -190,10 +190,10 @@ const Display = () => {
                 <textarea className="form-control textArea1 scroll_con" id="msg" onChange={parseMessage}></textarea>
             </div>
             <div className="div2">
-                <div className='div2-1'>
+                <div className='jviewer-label'>
                     <label className="form-label">JSON Text</label>
                     
-                  <div className='div2-1-1'> 
+                  <div className='search-toggle-div'> 
                         <Form.Check type="switch" checked={isChecked} onChange={handleCheck} label="Remove empty values" /> 
 
                         <Form.Control type="text" placeholder="Search" className='search-box' onChange={(e) => debounced(e.target.value)} />
