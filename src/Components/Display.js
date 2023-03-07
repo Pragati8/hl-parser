@@ -4,6 +4,8 @@ import JSONViewer from './JSONViewer';
 import { useState, useEffect } from 'react';
 import './Display.css';
 import Form from 'react-bootstrap/Form';
+import { useDebouncedCallback } from 'use-debounce';
+import './JSONViewer.css'
 
 const Display = () => {
 
@@ -18,6 +20,10 @@ const Display = () => {
     let myObj2;
     let [myObj3, setMyObj3] = useState({});
     let [search, setSearch] = useState("");
+    
+    const debounced = useDebouncedCallback((value) => {
+        setSearch(value);
+    }, 600);
 
     const handleCheck = () => {
         setIsChecked(!isChecked);
@@ -39,10 +45,6 @@ const Display = () => {
       };
 
       const removeEmptyObj = (obj) => {
-        const result = Array.isArray(obj["OBX"]);
-
-
-        console.log(result);
           Object.keys(obj).forEach(k => {
             if(Array.isArray(obj[k])) {
                 for(let x=0;x<obj[k].length;x++) {
@@ -185,7 +187,7 @@ const Display = () => {
         <div className='flex-container'>
             <div className="div1">
                 <label className="form-label">HL7 Text</label>
-                <textarea className="form-control textArea1" id="msg" onChange={parseMessage}></textarea>
+                <textarea className="form-control textArea1 scroll_con" id="msg" onChange={parseMessage}></textarea>
             </div>
             <div className="div2">
                 <div className='div2-1'>
@@ -194,17 +196,17 @@ const Display = () => {
                   <div className='div2-1-1'> 
                         <Form.Check type="switch" checked={isChecked} onChange={handleCheck} label="Remove empty values" /> 
 
-                        <Form.Control type="text" placeholder="Search" className='search-box' value={search} onChange={(e) => setSearch(e.target.value)} />
+                        <Form.Control type="text" placeholder="Search" className='search-box' onChange={(e) => debounced(e.target.value)} />
                      </div> 
                 </div>
 
-                <div className="jviewer">
-                    <JSONViewer highlightSearch={search} highlightSearchColor="#FFFD54" JText={JText} displayDataTypes={false} theme={"summerfruit:inverted"} collapsed={2} />
+                <div className="jviewer scroll_con">
+                    <JSONViewer highlightSearch={search} highlightSearchColor="#FFFD54" highlightCurrentSearchColor="#FE9B4A" JText={JText} displayDataTypes={false} theme={"summerfruit:inverted"} collapsed={2} />
                 </div>
             </div>
         </div>
         <div className='footer'>
-            <span><a className='footer-link' href="https://hl7-definition.caristix.com/v2/HL7v2.3/Segments">HL7 Documentation</a></span>
+            <span><a className='footer-link' href="https://hl7-definition.caristix.com/v2/HL7v2.3/Segments">HL7 Documentation (v2.3)</a></span>
             <span><a className='footer-link' href="https://github.com/Pragati-Khurana/hl7-parser">GitHub</a></span>
         </div>
     </>
